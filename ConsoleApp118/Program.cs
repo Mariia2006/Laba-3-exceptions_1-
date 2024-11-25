@@ -14,9 +14,9 @@ namespace ConsoleApp118
                 Console.WriteLine($"Enter two numbers for the file {fileName}:");
 
                 string firstLine = Console.ReadLine();
-                string secondLine = Console.ReadLine();
+                string secondline = Console.ReadLine();
 
-                File.WriteAllLines(fileName, new string[] { firstLine, secondLine });
+                File.WriteAllLines(fileName, new string[] { firstLine, secondline });
             }
             var noFileList = new List<string>();
             var badDataList = new List<string>();
